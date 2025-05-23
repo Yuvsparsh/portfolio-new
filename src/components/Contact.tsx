@@ -92,7 +92,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Me",
-      subtitle: "hello@sparshyadav.com",
+      subtitle: "sparsh17y@gmail.com",
       description: "Drop me a line anytime",
       color: "from-blue-500 to-cyan-500",
       delay: "0ms",
@@ -110,7 +110,7 @@ const Contact = () => {
   const socialLinks = [
     {
       icon: Linkedin,
-      href: "#",
+      href: "https://www.linkedin.com/in/sparsh-yadav-b1a233274/",
       color: "hover:bg-blue-600",
       bg: "bg-blue-500",
     },

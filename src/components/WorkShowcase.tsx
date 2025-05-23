@@ -177,7 +177,7 @@ const WorkShowcase = () => {
 
                   {/* CTA Button */}
                   <div className="flex items-center justify-between">
-                    <a
+                    {/* <a
                       href={project.caseStudyUrl}
                       className={`inline-flex items-center font-semibold text-lg transition-all duration-300 hover:no-underline ${
                         hoveredProject === project.id
@@ -195,6 +195,16 @@ const WorkShowcase = () => {
                       >
                         <ChevronRight className="w-5 h-5" />
                       </div>
+                    </a> */}
+                    <a
+                      href={project.caseStudyUrl}
+                      className={`transform transition-all duration-300 ${
+                        hoveredProject === project.id
+                          ? "transform translate-x-1 text-purple-600"
+                          : "text-gray-400"
+                      }`}
+                    >
+                      View Full Project &rarr;
                     </a>
 
                     <a
@@ -235,7 +245,7 @@ const WorkShowcase = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="text-center mt-16">
+        {/* <div className="text-center mt-16">
           <a
             href="/portfolio"
             className="group relative inline-flex items-center gap-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 hover:no-underline"
@@ -244,7 +254,7 @@ const WorkShowcase = () => {
             <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
             <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-purple-700 rounded-full blur opacity-0 group-hover:opacity-50 transition-opacity duration-300 -z-10"></div>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

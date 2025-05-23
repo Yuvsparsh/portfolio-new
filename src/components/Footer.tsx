@@ -1,4 +1,3 @@
-
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-12">
@@ -7,21 +6,22 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Sparsh Yadav</h3>
             <p className="text-gray-400 leading-relaxed">
-              UI/UX Designer passionate about creating meaningful digital experiences 
-              that bridge the gap between user needs and business goals.
+              UI/UX Designer passionate about creating meaningful digital
+              experiences that bridge the gap between user needs and business
+              goals.
             </p>
           </div>
 
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <div className="space-y-2">
-              {['Home', 'Work', 'About', 'Contact'].map((link) => (
+              {["Home", "Work", "About", "Contact"].map((link) => (
                 <button
                   key={link}
                   onClick={() => {
                     const element = document.getElementById(link.toLowerCase());
                     if (element) {
-                      element.scrollIntoView({ behavior: 'smooth' });
+                      element.scrollIntoView({ behavior: "smooth" });
                     }
                   }}
                   className="block text-gray-400 hover:text-white transition-colors duration-200"
@@ -45,7 +45,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2024 Sparsh Yadav. All rights reserved.
+            © 2025 Sparsh Yadav. All rights reserved.
           </p>
           <p className="text-gray-400 text-sm mt-2 md:mt-0">
             Designed & Built with ❤️ by Sparsh

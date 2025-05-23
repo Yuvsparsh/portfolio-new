@@ -198,6 +198,7 @@ const WorkShowcase = () => {
                     </a> */}
                     <a
                       href={project.caseStudyUrl}
+                      target="_blank"
                       className={`transform transition-all duration-300 ${
                         hoveredProject === project.id
                           ? "transform translate-x-1 text-purple-600"
@@ -209,6 +210,7 @@ const WorkShowcase = () => {
 
                     <a
                       href={project.caseStudyUrl}
+                      target="_blank"
                       className={`transform transition-all duration-300 ${
                         hoveredProject === project.id
                           ? "scale-100 opacity-100"
